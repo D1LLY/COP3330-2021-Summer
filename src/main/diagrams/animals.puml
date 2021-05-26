@@ -1,0 +1,45 @@
+@startuml
+class Animal {
+    + makeSound()
+    + move()
+}
+
+Animal <|-- WalkingAnimal
+Animal <|-- SwimmingAnimal
+Animal <|-- FlyingAnimal
+Animal <|-- CrawlingAnimal
+
+WalkingAnimal <|-- Dog
+WalkingAnimal <|-- Cat
+
+CrawlingAnimal <|-- TwoLeggedDog
+
+
+FlyingAnimal <|-- Bird
+
+class CrawlingAnimal {
+}
+
+class WalkingAnimal {
+
+}
+
+class Dog {
+    + bark()
+}
+
+class Cat {
+    + makeSound()
+    + move()
+}
+class Bird {
+    + makeSound()
+    + move()
+}
+
+
+class Application
+
+Application o-- Animal
+
+@enduml
