@@ -1,7 +1,8 @@
 package oop.examples.ch01.ex01;
 
 public class CrawlingAnimal extends Animal {
-    public static void walk() {
+    @Override
+    public void move() {
         System.out.println("[CrawlingAnimal] is moving");
     }
 }

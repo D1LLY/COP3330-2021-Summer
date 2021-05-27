@@ -4,6 +4,6 @@ public class WalkingAnimal extends Animal {
 
     @Override
     public void move() {
-        System.out.println("[WalkingAnimal] is Walking");
+        System.out.println("[WalkingAnimal] is moving");
     }
 }

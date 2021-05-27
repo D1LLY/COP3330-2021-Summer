@@ -25,7 +25,8 @@ class WalkingAnimal {
 }
 
 class Dog {
-    + bark()
+    + makeSound()
+    + move()
 }
 
 class Cat {
@@ -33,6 +34,11 @@ class Cat {
     + move()
 }
 class Bird {
+    + makeSound()
+    + move()
+}
+
+class TwoLeggedDog {
     + makeSound()
     + move()
 }

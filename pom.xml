@@ -51,7 +51,7 @@
             <archive>
               <manifest>
                 <addClasspath>true</addClasspath>
-                <mainClass>oop.application.App</mainClass>
+                <mainClass>oop.examples.ch01.ex01.App</mainClass>
               </manifest>
             </archive>
           </configuration>
